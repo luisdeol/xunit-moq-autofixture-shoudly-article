@@ -15,7 +15,7 @@ namespace SchoolManager.Tests.Commands
     public class AddStudentTests
     {
         [Fact]
-        public async Task ValidStudent_HandlerIsCalled_ReturnValidGuid() {
+        public async Task ValidStudent_HandlerIsCalled_ReturnValidStudentViewModel() {
             // Arrange
             var addStudent = new Fixture().Create<AddStudent>();
             
